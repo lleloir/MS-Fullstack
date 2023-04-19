@@ -104,6 +104,11 @@ WHERE tauxcom is NOT NULL;
 
 27.
 
+SELECT nom , salaire , tauxcom 
+FROM employe
+WHERE tauxcom is NOT NULL
+ORDER BY tauxcom ASC;
+
 
 29.
 
